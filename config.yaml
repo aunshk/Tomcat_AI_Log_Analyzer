@@ -1,0 +1,13 @@
+# Configuration for Tomcat Log Analyzer
+
+# Remote Ollama server
+ollama_host: "http://<Ollama server IP>:11434"
+model: "mistral"
+
+# Logging
+log_dir: "./logs"           # relative path for logs; create if not exists
+log_file: "analyzer.log"
+log_level: "INFO"             # DEBUG / INFO / WARNING / ERROR
+
+# Parser options (keeps default behavior)
+max_error_lines: 300

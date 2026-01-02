@@ -1,0 +1,31 @@
++------------------+         HTTP POST        +---------------------+
+|   VM-1           | -----------------------> |   VM-2 (Ollama)     |
+| Python Script    |                         | Runs model locally   |
+| Tomcat Logs      | <----------------------- | Returns AI summary   |
++------------------+         Response         +---------------------+
+
+
+
+tomcat-analyzer/
+│
+├── main.py
+├── ai_analyzer.py
+├── log_parser.py        
+├── config.yaml
+│
+└── logs/
+    ├── analyzer.log
+    └── performance.log
+
+
+--> pre-reqs:
+pip install requests #on VM-1
+pip install pyyaml #on VM-1
+
+--> Verification Test:
+curl http://<OLLAMA_VM_IP>:11434/api/tags
+#If you get JSON output, the remote Ollama is working and accessible.
+
+
+--> execution: 
+python3 main.py logs/catalina.out

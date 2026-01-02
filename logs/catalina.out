@@ -1,0 +1,85 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2025 09:52:35.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.105
+25-May-2025 09:52:35.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 7 2025 18:36:02 UTC
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.105.0
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1024-aws
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/ubuntu/myapp/java11
+25-May-2025 09:52:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.27+6-adhoc.root.jdk11u
+25-May-2025 09:52:35.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            OpenLogic-OpenJDK
+25-May-2025 09:52:35.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ubuntu/myapp/tomcat9
+25-May-2025 09:52:35.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ubuntu/myapp/tomcat9
+25-May-2025 09:52:35.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2025 09:52:35.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+25-May-2025 09:52:35.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+25-May-2025 09:52:35.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2025 09:52:35.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2025 09:52:35.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2025 09:52:35.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ubuntu/myapp/tomcat9/conf/logging.properties
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ubuntu/myapp/tomcat9
+25-May-2025 09:52:35.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ubuntu/myapp/tomcat9
+25-May-2025 09:52:35.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ubuntu/myapp/tomcat9/temp
+25-May-2025 09:52:35.927 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+25-May-2025 09:52:36.475 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-May-2025 09:52:36.517 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [957] milliseconds
+25-May-2025 09:52:36.629 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2025 09:52:36.630 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.105]
+25-May-2025 09:52:36.654 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ubuntu/myapp/tomcat9/webapps/MyWebApp.war]
+25-May-2025 09:52:37.158 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ubuntu/myapp/tomcat9/webapps/MyWebApp.war] has finished in [505] ms
+25-May-2025 09:52:37.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/myapp/tomcat9/webapps/examples]
+25-May-2025 09:52:37.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/myapp/tomcat9/webapps/examples] has finished in [349] ms
+25-May-2025 09:52:37.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/myapp/tomcat9/webapps/docs]
+25-May-2025 09:52:37.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/myapp/tomcat9/webapps/docs] has finished in [43] ms
+25-May-2025 09:52:37.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/myapp/tomcat9/webapps/ROOT]
+25-May-2025 09:52:37.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/myapp/tomcat9/webapps/ROOT] has finished in [27] ms
+25-May-2025 09:52:37.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/myapp/tomcat9/webapps/host-manager]
+25-May-2025 09:52:37.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/myapp/tomcat9/webapps/host-manager] has finished in [29] ms
+25-May-2025 09:52:37.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/myapp/tomcat9/webapps/manager]
+25-May-2025 09:52:37.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/myapp/tomcat9/webapps/manager] has finished in [40] ms
+25-May-2025 09:52:37.659 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2025 09:52:37.675 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1155] milliseconds
+Jul 28, 2025 11:48:00 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class [com.example.MyContextListener]
+java.lang.RuntimeException: Failed to initialize application context
+	at com.example.MyContextListener.contextInitialized(MyContextListener.java:25)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4798)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:686)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:694)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 28, 2025 11:48:05 AM org.apache.coyote.http11.AbstractHttp11Processor process
+SEVERE: Error processing request
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.coyote.http11.AbstractHttp11Processor.action(AbstractHttp11Processor.java:784)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:378)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.catalina.connector.RequestGroupInfo.process(RequestGroupInfo.java:108)
+	at org.apache.catalina.core.StandardEngine.access$000(StandardEngine.java:72)
+	at org.apache.catalina.core.StandardEngine$2.run(StandardEngine.java:191)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

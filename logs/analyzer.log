@@ -1,0 +1,25 @@
+2025-12-31 06:10:24,595 - INFO - root - Main logging initialized: logs/analyzer.log
+2025-12-31 06:10:24,596 - INFO - performance - Time to load log file: 0.0000 sec
+2025-12-31 06:10:24,596 - INFO - performance - Time to parse log: 0.0003 sec
+2025-12-31 06:10:24,596 - INFO - ai_analyzer - Sending request to Ollama: http://192.168.0.238:11434/api/generate (model=mistral)
+2025-12-31 06:20:52,026 - INFO - performance - Time to connect to Ollama: 627.4301 sec
+2025-12-31 06:26:49,377 - INFO - performance - Time to stream response: 357.3504 sec
+2025-12-31 06:26:49,377 - INFO - performance - Total analysis time: 984.7807 sec
+2025-12-31 06:26:49,377 - INFO - ai_analyzer - ========== AI ANALYSIS START ==========
+2025-12-31 06:26:49,377 - INFO - ai_analyzer -  Based on the provided Apache Tomcat log, there are two separate issues that need to be addressed:
+2025-12-31 06:26:49,377 - INFO - ai_analyzer - 
+2025-12-31 06:26:49,377 - INFO - ai_analyzer - 1. Exception sending context initialized event to listener instance of class [com.example.MyContextListener]:
+2025-12-31 06:26:49,378 - INFO - ai_analyzer -    This error is related to your custom `MyContextListener` class which failed to initialize the application context at line 25 in MyContextListener.java. You should review this class and focus on lines around line 25, looking for any possible exceptions or errors that might be causing the failure.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - 
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - Solutions:
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - - Correct any logic or coding issues within the `MyContextListener` class that is causing the exception.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - - If necessary, consult the application documentation, online resources, or reach out to your development team for guidance on resolving the issue in the `MyContextListener` class.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - 
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - 2. Error processing request: Broken pipe
+2025-12-31 06:26:49,378 - INFO - ai_analyzer -    This error is typically caused by an unexpected condition occurring during the HTTP request handling process, such as a client abruptly closing the connection before receiving all data.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - 
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - Solutions:
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - - Ensure that your application correctly handles situations where clients may close their connections prematurely.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - - Implement proper exception and error handling mechanisms within your application to gracefully handle these types of issues and prevent them from causing further errors.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - - If this issue persists, it might be beneficial to inspect the client's behavior and ensure that they are correctly configured to send requests and handle responses according to HTTP standards.
+2025-12-31 06:26:49,378 - INFO - ai_analyzer - =========== AI ANALYSIS END ===========
