@@ -73,7 +73,7 @@ On your **Ollama VM**:
 You should get a JSON response with model names.
 
 #By default ollama server is accessible from 127.0.0.1(localhost). To make it accessible from anywhere make following changes.
-Replace following line 
+Replace 
 	Environment="PATH=/home/aunsh/.local/bin:/home/aunsh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin"
 with 
 	Environment="OLLAMA_HOST=0.0.0.0:11434"	
@@ -305,4 +305,5 @@ Your log does not contain:
 Modify regex in `log_parser.py` if needed.
 
 ---
+
 
